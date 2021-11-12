@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form>
-        <input type="email" id="email" placeholder="E-mail" name="email">
-        <input type="text" id="country" placeholder="Country" name="country">
+    <form id="form">
+        <input type="email" id="email" placeholder="E-mail" name="email" required minlength="8">
+        <input type="text" id="country" placeholder="Country" name="country" required minlength="4">
         <input type="number" id="zipcode" placeholder="Zip Code" name="zipcode">
         <input type="password" id="password" placeholder="Password" name="password">
         <input type="password" id="passconf" placeholder="Enter Password Again" name="passconf">
+        <input type="submit" id="submit" name="submit">
     </form>
 </body>
 </html>
